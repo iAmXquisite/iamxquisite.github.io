@@ -6,6 +6,7 @@ body {
 }
 li {
 	float: left;
+	font-size: 18px;
 }
 li a {
 	display:block;
@@ -81,6 +82,22 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 }
+#content {
+	margin-top: 1%;
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#footer {
+	margin-top: 1%;
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
@@ -97,6 +114,20 @@ img, object, embed, video {
 	display: block;
 }
 #navigation {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#content {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#footer {
 	clear: both;
 	float: left;
 	margin-left: 0;
@@ -122,6 +153,20 @@ img, object, embed, video {
 	display: block;
 }
 #navigation {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#content {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#footer {
 	clear: both;
 	float: left;
 	margin-left: 0;
