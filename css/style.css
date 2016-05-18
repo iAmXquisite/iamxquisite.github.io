@@ -1,4 +1,7 @@
 @charset "utf-8";
+body {
+	background:#000;
+}
 /* Simple fluid media
    Note: Fluid media requires that you remove the media's height and width attributes from the HTML
    http://www.alistapart.com/articles/fluid-images/ 
@@ -29,13 +32,23 @@ img, object, embed, video {
 /* Mobile Layout: 480px and below. */
 
 .gridContainer {
+	background:#FFF;
 	margin-left: auto;
 	margin-right: auto;
 	width: 87.36%;
 	padding-left: 1.82%;
 	padding-right: 1.82%;
+	height: auto;
 }
-#LayoutDiv1 {
+#header {
+	margin-top: 1%;
+	clear: both;
+	float:right;
+	width: 100%;
+	display: block;
+	text-align:center;
+}
+#navigation {
 	clear: both;
 	float: left;
 	margin-left: 0;
@@ -51,7 +64,13 @@ img, object, embed, video {
 	padding-left: 1.1625%;
 	padding-right: 1.1625%;
 }
-#LayoutDiv1 {
+#header {
+	clear: both;
+	float: right;
+	width: 100%;
+	display: block;
+}
+#navigation {
 	clear: both;
 	float: left;
 	margin-left: 0;
@@ -71,6 +90,12 @@ img, object, embed, video {
 	margin: auto;
 }
 #LayoutDiv1 {
+	clear: both;
+	float: right;
+	width: 75%;
+	display: block;
+}
+#navigation {
 	clear: both;
 	float: left;
 	margin-left: 0;
