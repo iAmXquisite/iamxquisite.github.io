@@ -1,6 +1,31 @@
 @charset "utf-8";
+
+/* Custom Styles */
 body {
-	background:#000;
+	background: #FFF;
+}
+li {
+	float: left;
+}
+li a {
+	display:block;
+	color: white;
+	text-align: center;
+	padding: 25px 80px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #111111;
+}
+ul {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	background-color: #333;
+}
+.active {
+	background-color: #4CAF50;
 }
 /* Simple fluid media
    Note: Fluid media requires that you remove the media's height and width attributes from the HTML
@@ -49,6 +74,7 @@ img, object, embed, video {
 	text-align:center;
 }
 #navigation {
+	margin-top: 1%;
 	clear: both;
 	float: left;
 	margin-left: 0;
