@@ -2,7 +2,14 @@
 <project version="4">
   <component name="PublishConfigData">
     <serverData>
-      <paths name="Xquisite Lab">
+      <paths name="Laguna Application">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Laguna Site">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />

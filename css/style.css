@@ -27,7 +27,9 @@ body {
 .active {
 	background-color: #4CAF50;
 }
-
+.icon-space {
+	margin: 0 5px 0 0;
+}
 /* PRICING TABLE STARTS HERE */
 
 #pricing-table {
@@ -42,7 +44,7 @@ body {
 	border: 1px solid #DDD;
 	color: #333;
 	padding: 20px;
-	width: 250px;
+	width: 220px;
 	display: inline-block;
 	margin: 20px;
 }
@@ -169,6 +171,7 @@ img, object, embed, video {
 	clear: both;
 	float: left;
 	margin-left: 0;
+	margin-bottom: 5%;
 	width: 100%;
 	display: block;
 }
