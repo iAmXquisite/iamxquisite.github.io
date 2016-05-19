@@ -217,6 +217,19 @@ img, object, embed, video {
 	padding-left: 1.1625%;
 	padding-right: 1.1625%;
 }
+#logo {
+	background-image:url(../images/logo.png);
+	display:block;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: center;
+	width:100%;
+	height: 150px;
+	text-indent:-9999px;
+}
+.logo {
+	width: 100%;
+}
 #header {
 	clear: both;
 	float: right;
@@ -225,7 +238,6 @@ img, object, embed, video {
 }
 #navigation {
 	clear: both;
-	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
@@ -290,9 +302,9 @@ img, object, embed, video {
 #logo {
 	background-image:url(../images/logo.png);
 	display:block;
-	background-size: 30%;
+	background-size: 60%;
 	background-repeat: no-repeat;
-	background-position: left;
+	background-position: center;
 	width:100%;
 	height: 200px;
 	text-indent:-9999px;
