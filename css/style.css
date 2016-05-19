@@ -4,29 +4,103 @@
 body {
 	background: #FFF;
 }
-li {
-	float: left;
+.navigation li {
 	font-size: 18px;
 }
-li a {
+.navigation li a {
 	display:block;
 	color: white;
 	text-align: center;
-	padding: 25px 80px;
+	padding: 25px 50px;
 	text-decoration: none;
 }
-li a:hover {
+.navigation li a:hover {
 	background-color: #111111;
 }
-ul {
+.navigation ul {
 	list-style-type: none;
-	margin:0;
-	padding:0;
+	margin: 0;
+	padding: 0;
 	overflow: hidden;
 	background-color: #333;
 }
 .active {
 	background-color: #4CAF50;
+}
+
+/* PRICING TABLE STARTS HERE */
+
+#pricing-table {
+	margin: 20px auto;
+	text-align: center;
+	width: 100%; /* total computed width = 222 x 3 + 226 */
+}
+#pricing-table .plan {
+	font: 12px 'Lucida Sans', 'trebuchet MS', Arial, Helvetica;
+	text-shadow: 0 1px rgba(255, 255, 255, .8);
+	background: #FFF;
+	border: 1px solid #DDD;
+	color: #333;
+	padding: 20px;
+	width: 250px;
+	display: inline-block;
+	margin: 20px;
+}
+#pricing-table h3 {
+	font-size: 20px;
+	font-weight: normal;
+	padding: 20px;
+	margin: -20px -20px 50px -20px;
+	background-color: #eee;
+}
+#pricing-table .plan:nth-child(1) h3 {
+	-moz-border-radius: 5px 0 0 0;
+	-webkit-border-radius: 5px 0 0 0;
+	border-radius: 5px 0 0 0;       
+}
+#pricing-table .plan:nth-child(4) h3 {
+	-moz-border-radius: 0 5px 0 0;
+	-webkit-border-radius: 0 5px 0 0;
+	border-radius: 0 5px 0 0;       
+}
+#pricing-table h3 span {
+	display: block;
+	font: bold 25px/100px Georgia, Serif;
+	color: #777;
+	background: #fff;
+	border: 5px solid #fff;
+	height: 100px;
+	width: 100px;
+	margin: 10px auto -65px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	-moz-box-shadow: 0 5px 20px #ddd inset, 0 3px 0 #999 inset;
+	-webkit-box-shadow: 0 5px 20px #ddd inset, 0 3px 0 #999 inset;
+	box-shadow: 0 5px 20px #ddd inset, 0 3px 0 #999 inset;
+}
+#pricing-table ul {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+}
+
+#pricing-table li {
+	border-top: 1px solid #ddd;
+	padding: 10px 0;
+}
+	
+.clear:before, .clear:after {
+  content:"";
+  display:table
+}
+
+.clear:after {
+  clear:both
+}
+
+.clear {
+  zoom:1
 }
 /* Simple fluid media
    Note: Fluid media requires that you remove the media's height and width attributes from the HTML
@@ -84,9 +158,9 @@ img, object, embed, video {
 }
 #content {
 	margin-top: 1%;
+	margin-left: 0;
 	clear: both;
 	float: left;
-	margin-left: 0;
 	width: 100%;
 	display: block;
 }
@@ -146,12 +220,10 @@ img, object, embed, video {
 	padding-right: 0.8%;
 	margin: auto;
 }
-#LayoutDiv1 {
-	clear: both;
-	float: right;
-	width: 75%;
-	display: block;
-}
+.navigation li {
+	 float: left;
+	 font-size: 18px;
+ }
 #navigation {
 	clear: both;
 	float: left;
@@ -160,7 +232,7 @@ img, object, embed, video {
 	display: block;
 }
 #content {
-	clear: both;
+	clear: none;
 	float: left;
 	margin-left: 0;
 	width: 100%;
