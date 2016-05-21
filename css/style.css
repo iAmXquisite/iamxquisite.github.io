@@ -1,5 +1,7 @@
 @charset "utf-8";
-
+html {
+    font-size: 20px;
+}
 /* Custom Styles */
 body {
 	background: #FFF;
@@ -126,15 +128,25 @@ a:active{
 }
 /* HOME PAGE COLUMNS */
 
-#content .col-img-right {
-	float: right;
-	width: 50%;
+.col-img-right {
+	float: left;
 }
 
-#content .col-txt-left {
-	float: left;
-	width: 50%;
-	text-align: center;
+.col-txt-left {
+    text-align: center;
+    padding-top: 1.5%;
+}
+
+.col-txt-left p {
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 0;
+    font-size: 175%;
+}
+
+.col-text-left h1 {
+    font-size: 100&;
 }
 
 /* Simple fluid media
@@ -321,5 +333,16 @@ img, object, embed, video {
 	width:100%;
 	height: 200px;
 	text-indent:-9999px;
+}
+    
+.col-img-right {
+	float: right;
+	width: 50%;
+}
+
+    
+.col-txt-left {
+	float: left;
+	width: 50%;
 }
 }
