@@ -124,6 +124,19 @@ a:active{
 .clear {
   zoom:1
 }
+/* HOME PAGE COLUMNS */
+
+#content .col-img-right {
+	float: right;
+	width: 50%;
+}
+
+#content .col-txt-left {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
 /* Simple fluid media
    Note: Fluid media requires that you remove the media's height and width attributes from the HTML
    http://www.alistapart.com/articles/fluid-images/ 
