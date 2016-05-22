@@ -111,7 +111,7 @@ a:hover {
 }
 #pricing-table h3 span {
 	display: block;
-	font: bold 25px/100px Georgia, Serif;
+	font: bold 25px/85px Georgia, Serif;
 	color: #777;
 	background: #fff;
 	border: 5px solid #fff;
@@ -141,9 +141,6 @@ a:hover {
 .main-text {
 	padding: 20px 15px;
 	text-align: center;
-}
-.main-text h1{
-	margin-bottom: 20px;
 }
 .main-text p{
 	font-size: 175%;
@@ -285,9 +282,6 @@ img, object, embed, video {
 	padding: 80px 60px;
 	float: left;
 	width: 50%;
-}
-.col-text-left h1 {
-	margin-bottom: 20px;
 }
 .col-img-right {
  	float: right;
