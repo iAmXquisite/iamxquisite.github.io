@@ -1,26 +1,20 @@
 [
-  {
-    "firstName": "Vijay",
-    "lastName": "reddy",
-    "email": "asdv@ymail.com",
-    "mobile": ""
-  },
-  {
-    "firstName": "ggdggg",
-    "lastName": "nvnvnv",
-    "email": "asddd@xmail.com",
-    "mobile": ""
-  },
-  {
-    "firstName": "ggdggg",
-    "lastName": "nvnvnv",
-    "email": "asddd@xmail.com",
-    "mobile": ""
-  },
-  {
-    "firstName": "ggdggg",
-    "lastName": "nvnvnv",
-    "email": "asddd@xmail.com",
-    "mobile": ""
-  }
+	{ 
+		"firstName": "Jiovanni",
+		"lastName": "Castillo",
+		"email": "jio@activevr.com",
+		"mobile": "(310) 123-4567"
+	},
+	{ 
+		"firstName": "Chris",
+		"lastName": "Ortiz",
+		"email": "chris@activevr.com",
+		"mobile": "(310) 123-4567"
+	},
+	{ 
+		"firstName": "Cesar",
+		"lastName": "?",
+		"email": "cesar@activevr.com",
+		"mobile": "(310) 123-4567"
+	}
 ]

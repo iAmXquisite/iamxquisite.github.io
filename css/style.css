@@ -155,11 +155,32 @@ a:hover {
 	padding: 20px 15px;
 }
 .col-txt-left p {
-    text-align: justify;
-    width: 100%;
+	text-align: justify;
+	width: 100%;
 	line-height: 1.5;
-    margin: 0 auto;
-    font-size: 175%;
+	margin: 0 auto;
+	font-size: 175%;
+}
+.col-txt-left img {
+	border-color: #ccc;
+	border: solid;
+	border-radius: 5px;
+}
+
+.col-txt-left ul li {
+	text-align: justify;
+}
+
+.col-txt-right {
+	padding: 20px 15px;
+	text-align: justify;
+}
+
+th, td { padding: 5px; }
+
+#preOrderList tr:nth-child(even)
+{
+	background-color: #cacaca;
 }
 
 /* Simple fluid media
@@ -295,8 +316,10 @@ img, object, embed, video {
 		width: 50%;
 	}
 
-	.contact-form {
-		width: 60%;
-		margin: 0 auto;
+	.col-txt-right {
+		text-align: left;
+		padding: 80px 60px;
+		float: right;
+		width: 50%;
 	}
 }
