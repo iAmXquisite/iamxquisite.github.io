@@ -146,6 +146,7 @@ a:hover {
 	font-size: 175%;
 	text-align: justify;
 	line-height: 1.5;
+	margin-bottom: 10px;
 }
 .col-img-right {
 	float: left;
